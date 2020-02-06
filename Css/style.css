@@ -1,0 +1,119 @@
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+}
+body{
+font-family: 'Lobster', cursive;
+
+}
+ul,li{
+list-style-type: none;
+}
+a,a:hover{
+text-decoration: none;
+}
+ul,li,h1,h2,h3,h4,h5,h6,img{
+margin: 0;padding: 0;outline: 0;
+}
+img{
+vertical-align: middle;
+}
+/*******************************************************************
+Common Css End
+****************************************************************/
+*
+#contant-wrapper{
+background: url(../img/t.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: auto;
+}
+.overlay{
+background: rgba(0,0,0,0.7);
+height: auto;
+}
+#contant-wrapper{
+
+height: auto;
+}
+.name h1{
+	font-weight: 700;
+	font-size: 40px;
+	padding: 15px 0px;
+	letter-spacing: 2px;
+}
+.name h3{
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+
+
+.box{
+height: 400px;
+background-position: top;
+transition: all linear 3s;
+border: 5px solid #4D4947;
+margin-top: 50px;
+}
+.box1 {
+background: url(../img/1.jpg);
+background-size: cover;
+}
+.box4:hover,.box6:hover,.box5:hover,
+.box3:hover,
+.box2:hover,
+.box1:hover{
+background-position: bottom;
+}
+.box2{
+background: url(../img/himel.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+transition: all linear 6s;
+
+}
+.box3{
+background: url(../img/2.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+
+}
+
+.box4{
+background: url(../img/4.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+
+}
+
+.box5{
+background: url(../img/5.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+
+}
+
+.box6{
+background: url(../img/6.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+
+}
+.contant h2{
+color: white;
+}
+.name{
+color: white;
+text-align: center;
+letter-spacing: 1px;
+}
+.boxx{
+	background: linear-gradient(transparent 70%,blue);
+	height: 390px;
+	
+}
